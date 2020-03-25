@@ -95,19 +95,19 @@ def reduce_to_all_true(source_array)
 end
 
 # method that reduces the array. it checks if at least one value in the array is false, and if there is, it will return 'false'
-# def reduce_to_any_true(source_array)
-#   i = 0
+def reduce_to_any_true(source_array)
+  i = 0
 
-#   while i < source_array.length do
+  while i < source_array.length do
 
-#     if source_array[i] == false
-#       return false
-#     elsif source_array[i] == true
-#       return true
-#     else
-#       "invalid array"
-#     end
+    if source_array[i] == false
+      return false
+    elsif source_array[i] == true
+      return true
+    else
+      "invalid array"
+    end
 
-#     i += 1
-#   end
-# end
+    i += 1
+  end
+end
